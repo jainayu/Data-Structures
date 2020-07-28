@@ -22,7 +22,12 @@ An array can be initialized after declaration by assigning values to each index 
  type arr[size]
  arr[index] = 12
 ```
-
+A sample of processing an array by looping over the array and printing its elements is as follows:
+```
+type arr[size] = {elements}
+for idx from 0 to size
+    print arr[idx]
+```
 see full code from [here]().
  
 ##### Multi-dimensional
