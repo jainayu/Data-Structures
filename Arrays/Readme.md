@@ -22,7 +22,7 @@ type arr[size] = {elements}
 for idx from 0 to size
     print arr[idx]
 ```
-see full code from [here](https://github.com/jainayu/Data-Structures/blob/master/Array/array1D.cpp).
+**see full code from [here](https://github.com/jainayu/Data-Structures/blob/master/Array/array1D.cpp).**
  
 ## Multi-dimensional
 
@@ -58,4 +58,4 @@ for i from 0 to row_size
         print arr[i][j]
 ```
 
-see full code from [here](https://github.com/jainayu/Data-Structures/blob/master/Array/array2D.cpp).
+**see full code from [here](https://github.com/jainayu/Data-Structures/blob/master/Array/array2D.cpp).**
