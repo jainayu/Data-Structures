@@ -4,7 +4,7 @@
 
 An array is a sequential collection of elements of same data type and stores data elements in a continuous memory location. The elements of an array are accessed by using an index. The index of an array of size N can range from 0 to N-1.
 
-Array can be initialized either at the time of declaration or after that.
+*Array can be initialized either at the time of declaration or after that.*
 
 The sample format if an array is initialized at the time of declaration is
 ```
@@ -22,7 +22,7 @@ type arr[size] = {elements}
 for idx from 0 to size
     print arr[idx]
 ```
-**see full code from [here](https://github.com/jainayu/Data-Structures/blob/master/Array/array1D.cpp).**
+**see full code from [here](https://github.com/jainayu/Data-Structures/blob/master/Arrays/array1D.cpp).**
  
 ## Multi-dimensional
 
@@ -58,4 +58,4 @@ for i from 0 to row_size
         print arr[i][j]
 ```
 
-**see full code from [here](https://github.com/jainayu/Data-Structures/blob/master/Array/array2D.cpp).**
+**see full code from [here](https://github.com/jainayu/Data-Structures/blob/master/Arrays/array2D.cpp).**
