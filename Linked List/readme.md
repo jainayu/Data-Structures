@@ -20,3 +20,5 @@ struct LinkedList{
  };
 ```
 The above definition is used to create every node in the list. The data field stores the element and the next is a pointer to store the address of the next node. 
+
+n place of a data type, **struct LinkedList** is written before next. That's because its a **self-referencing pointer**. It means a pointer that points to whatever it is a part of. Here **next** is a part of a node and it will point to the next node.
