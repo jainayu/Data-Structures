@@ -9,3 +9,4 @@ All the codes completed and examples or syntax quoted are in the C++ programming
 3. [Queues](https://github.com/jainayu/Data-Structures/tree/master/Queues)
 4. [Hash Tables](https://github.com/jainayu/Data-Structures/tree/master/Hash%20Tables)
 5. [Linked List](https://github.com/jainayu/Data-Structures/tree/master/Linked%20List)
+6. [Trees](https://github.com/jainayu/Data-Structures/tree/master/Trees)
