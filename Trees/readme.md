@@ -1,6 +1,6 @@
 ## Trees
 
-### Binary/ N-ary Trees
+#### Binary/ N-ary Trees
 
 A binary tree is a structure comprising nodes, where each node has the following 3 components:
 
@@ -31,4 +31,8 @@ If a tree is empty, it is represented by a null pointer.
 - Manipulate sorted lists of data
 - Use as a workflow for compositing digital images for visual effects
 - Use in router algorithms
+
+#### Binary Search Tree
+
+For a binary tree to be a binary search tree, the data of all the nodes in the left sub-tree of the root node should be less than or equal to the data of the root. The data of all the nodes in the right subtree of the root node should be greater than the data of the root. 
 
