@@ -36,7 +36,7 @@ If a tree is empty, it is represented by a null pointer.
 
 For a binary tree to be a binary search tree, the data of all the nodes in the left sub-tree of the root node should be less than or equal to the data of the root. The data of all the nodes in the right subtree of the root node should be greater than the data of the root. 
 
-Traversing the tree
+**Traversing the tree**
 
 There are mainly three types of tree traversals.
 
@@ -46,5 +46,14 @@ There are mainly three types of tree traversals.
     - Process data of root node
     - First, traverse left subtree completely
     - Then, traverse right subtree
+    
+- Post-order traversal
+
+  In this traversal technique the traversal order is left-right-root.
+
+    - Process data of left subtree
+    - First, traverse right subtree
+    - Then, traverse root node
+
 
 
