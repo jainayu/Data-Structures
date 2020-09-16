@@ -38,22 +38,23 @@ For a binary tree to be a binary search tree, the data of all the nodes in the l
 
 **Traversing the tree**
 
-There are mainly three types of tree traversals.
+*There are mainly three types of tree traversals.*
 
-- Pre-order traversal
-
-  In this traversal technique the traversal order is root-left-right i.e.
+- Pre-order traversal: In this traversal technique the traversal order is root-left-right i.e.
     - Process data of root node
     - First, traverse left subtree completely
     - Then, traverse right subtree
     
-- Post-order traversal
-
-  In this traversal technique the traversal order is left-right-root.
-
+- Post-order traversal: In this traversal technique the traversal order is left-right-root.
     - Process data of left subtree
     - First, traverse right subtree
     - Then, traverse root node
+
+- In-order traversal: In in-order traversal, do the following:
+    - First process left subtree (before processing root node)
+    - Then, process current root node
+    - Process right subtree
+
 
 
 
