@@ -54,6 +54,10 @@ For a binary tree to be a binary search tree, the data of all the nodes in the l
     - First process left subtree (before processing root node)
     - Then, process current root node
     - Process right subtree
+    
+## Heaps
+
+A heap is a tree-based data structure in which all the nodes of the tree are in a specific order. In binary heap, if the heap is a complete binary tree with N nodes, then it has smallest possible height which is log2(N). 
 
 
 
