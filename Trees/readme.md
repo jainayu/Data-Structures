@@ -59,6 +59,8 @@ For a binary tree to be a binary search tree, the data of all the nodes in the l
 
 A heap is a tree-based data structure in which all the nodes of the tree are in a specific order. In binary heap, if the heap is a complete binary tree with N nodes, then it has smallest possible height which is log2(N). 
 
+For example, if *X* is the parent node of *Y*, then the value of *X* follows a specific order with respect to the value of *Y* and the same order will be followed across the tree. 
+
 
 
 
