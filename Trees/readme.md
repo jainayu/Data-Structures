@@ -61,6 +61,4 @@ A heap is a tree-based data structure in which all the nodes of the tree are in 
 
 For example, if *X* is the parent node of *Y*, then the value of *X* follows a specific order with respect to the value of *Y* and the same order will be followed across the tree. 
 
-
-
-
+**Max Heap:** In this type of heap, the value of parent node will always be greater than or equal to the value of child node across the tree and the node with highest value will be the root node of the tree. 
