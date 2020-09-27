@@ -8,13 +8,11 @@ A binary tree is a structure comprising nodes, where each node has the following
 - Left pointer: Points to the tree on the left side of node
 - Right pointer: Points to the tree on the right side of the node
 
-As the name suggests, the data element stores any kind of data in the node.
-The left and right pointers point to binary trees on the left and right side of the node respectively.
+As the name suggests, the data element stores any kind of data in the node. The left and right pointers point to binary trees on the left and right side of the node respectively.
 
 If a tree is empty, it is represented by a null pointer.
 
 **Commonly-used terminologies**
-
 - Root: Top node in a tree
 - Child: Nodes that are next to each other and connected downwards
 - Parent: Converse notion of child
@@ -26,13 +24,13 @@ If a tree is empty, it is represented by a null pointer.
 - External node: Node with no children
 
 **Application of trees**
-- a Manipulate hierarchical data
-- Make information easy to search (see tree traversal)
-- Manipulate sorted lists of data
-- Use as a workflow for compositing digital images for visual effects
-- Use in router algorithms
+- A Manipulate hierarchical data.
+- Make information easy to search.
+- Manipulate sorted lists of data.
+- Use as a workflow for compositing digital images for visual effects.
+- Use in router algorithms.
 
-#### Binary Search Tree
+#### Binary Search Tree (BST)
 
 For a binary tree to be a binary search tree, the data of all the nodes in the left sub-tree of the root node should be less than or equal to the data of the root. The data of all the nodes in the right subtree of the root node should be greater than the data of the root. 
 
