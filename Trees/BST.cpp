@@ -7,23 +7,19 @@ private:
 	BST* left;
 	BST* right;
 public:
-	BST(int val) {
-		data = val;
-		left = right = NULL:
-	}
-
+	BST();
+	BST(int);
+	insert(int);
 }
 
-void insert(int data){
-	 root;
-	if(temp == NULL){ }
-	while(temp != NULL) {
-		if(data <= temp->data){
-			temp = temp->left;
-		} else if(data > temp->data) {
-			temp = temp->right;
-		}
-	}
+BST :: BST() : data(0), left(NULL), right(NULL) {}
+
+BST :: BST(int val) {
+	data = val;
+	left = right = NULL:
+}
+
+void BST :: insert(int data) {
 	
 }
 
