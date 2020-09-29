@@ -9,7 +9,9 @@ private:
 public:
 	BST();
 	BST(int);
+	int getData();
 	BST* insert(BST*, int);
+	BST* search(BST*, int);
 	void inOrder(BST *);
 	void preOrder(BST *);
 	void postOrder(BST *);
@@ -21,7 +23,9 @@ BST :: BST(int val) {
 	data = val;
 	left = right = NULL;
 }
-
+int BST :: getData() {
+	return data;
+}
 BST* BST :: insert(BST* node, int val) {
 	if(!node) {
 		return new BST(val);
@@ -33,6 +37,16 @@ BST* BST :: insert(BST* node, int val) {
 		node->left = insert(node->left, val);
 	}
 	return node;
+}
+
+BST* BST :: search(BST* node, int val){
+	if(node == NULL || node->data == val) return node;
+	
+	if(val > node->data) {
+		return search(node->right, val);
+	} else {
+		return search(node->left, val);
+	}
 }
 
 void BST :: inOrder(BST *root) { 
@@ -80,6 +94,9 @@ int main() {
     cout << "Post-order traversal: ";
 	bst.postOrder(root);
 	cout << endl;
+	
+	BST* s = bst.search(root, 10);
+	if(s != NULL) cout << s->getData() << endl;
 
 	return 0;
 }
