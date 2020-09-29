@@ -30,7 +30,7 @@ If a tree is empty, it is represented by a null pointer.
 - Use as a workflow for compositing digital images for visual effects.
 - Use in router algorithms.
 
-#### Binary Search Tree (BST)
+#### Binary Search Tree (BST) (see full code *[here](https://github.com/jainayu/Data-Structures/blob/master/Trees/BST.cpp)*)
 
 For a binary tree to be a binary search tree, the data of all the nodes in the left sub-tree of the root node should be less than or equal to the data of the root. The data of all the nodes in the right subtree of the root node should be greater than the data of the root. 
 
@@ -42,16 +42,22 @@ For a binary tree to be a binary search tree, the data of all the nodes in the l
     - Process data of root node
     - First, traverse left subtree completely
     - Then, traverse right subtree
+
+*[see implementation](https://github.com/jainayu/Data-Structures/blob/master/Trees/BST.cpp)*
     
 - Post-order traversal: In this traversal technique the traversal order is left-right-root.
     - Process data of left subtree
     - First, traverse right subtree
     - Then, traverse root node
 
+*[see implementation](https://github.com/jainayu/Data-Structures/blob/master/Trees/BST.cpp)*
+
 - In-order traversal: In in-order traversal, do the following:
     - First process left subtree (before processing root node)
     - Then, process current root node
     - Process right subtree
+
+*[see implementation](https://github.com/jainayu/Data-Structures/blob/master/Trees/BST.cpp)*
     
 ## Heaps
 
