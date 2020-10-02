@@ -10,8 +10,9 @@ public:
 	BST();
 	BST(int);
 	int getData();
-	BST* insert(BST*, int);
-	BST* search(BST*, int);
+	BST* insertNode(BST*, int);
+	BST* searchNode(BST*, int);
+	BST* deleteNode(BST*, int);
 	void inOrder(BST *);
 	void preOrder(BST *);
 	void postOrder(BST *);
@@ -26,28 +27,30 @@ BST :: BST(int val) {
 int BST :: getData() {
 	return data;
 }
-BST* BST :: insert(BST* node, int val) {
+BST* BST :: insertNode(BST* node, int val) {
 	if(!node) {
 		return new BST(val);
 	}
 	
 	if(val > node->data) {
-		node->right = insert(node->right, val);
+		node->right = insertNode(node->right, val);
 	} else {
-		node->left = insert(node->left, val);
+		node->left = insertNode(node->left, val);
 	}
 	return node;
 }
 
-BST* BST :: search(BST* node, int val){
+BST* BST :: searchNode(BST* node, int val){
 	if(node == NULL || node->data == val) return node;
 	
 	if(val > node->data) {
-		return search(node->right, val);
+		return searchNode(node->right, val);
 	} else {
-		return search(node->left, val);
+		return searchNode(node->left, val);
 	}
 }
+
+BST* BST :: deleteNode(BST* node, int val);
 
 void BST :: inOrder(BST *root) { 
     if(!root) return; 
@@ -75,13 +78,13 @@ void BST :: postOrder(BST *root) {
 
 int main() {
 	BST bst, *root = NULL; 
-    root = bst.insert(root, 6); 
-    bst.insert(root, 5); 
-    bst.insert(root, 10); 
-    bst.insert(root, 4); 
-    bst.insert(root, 7); 
-    bst.insert(root, 15); 
-    bst.insert(root, 9); 
+    root = bst.insertNode(root, 6); 
+    bst.insertNode(root, 5); 
+    bst.insertNode(root, 10); 
+    bst.insertNode(root, 4); 
+    bst.insertNode(root, 7); 
+    bst.insertNode(root, 15); 
+    bst.insertNode(root, 9); 
     
     cout << "In-order traversal: ";
 	bst.inOrder(root);
@@ -95,7 +98,7 @@ int main() {
 	bst.postOrder(root);
 	cout << endl;
 	
-	BST* s = bst.search(root, 10);
+	BST* s = bst.searchNode(root, 10);
 	if(s != NULL) cout << s->getData() << endl;
 
 	return 0;
