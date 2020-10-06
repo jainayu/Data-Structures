@@ -7,14 +7,14 @@ void swap(int *x, int *y) {
 	*y = temp; 
 } 
 
-class MaxHeap {
+class MinHeap {
 	int *harr;
 	int capacity;
 	int heapSize;
 
 public: 
-	MaxHeap(int);
-	void maxHeapify(int);
+	MinHeap(int);
+	void minHeapify(int);
 	int parent(int i) {
 		return (i-1)/2;
 	}
@@ -24,21 +24,21 @@ public:
 	int right(int i) {
 		return (2*i);
 	}
-	int extractMax();
-	int getMax() {
+	int extractMin();
+	int getMin() {
 		return harr[0];
 	}
 	void deleteKey(int);
 	void insertKey(int);
 };
 
-MaxHeap :: MaxHeap(int c) {
+MinHeap :: MinHeap(int c) {
 	heapSize = 0;
 	capacity = c;
 	harr = new int[c];
 }
 
-void MaxHeap :: insertKey(int val) {
+void MinHeap :: insertKey(int val) {
 	if(heapSize == capacity) {
 		cout << "\nOverflow: Could not insertKey\n"; 
 		return; 
@@ -46,34 +46,34 @@ void MaxHeap :: insertKey(int val) {
 	
 	harr [heapSize++] = val;
 	int i = heapSize - 1;
-	while(i != 0 && harr[parent(i)] < harr[i]){
+	while(i != 0 && harr[parent(i)] > harr[i]){
 		swap(&harr[i], &harr[parent(i)]);
 		i = parent(i);
 	}
 }
 
-void MaxHeap :: maxHeapify(int i) {
+void MinHeap :: minHeapify(int i) {
 	int l = left(i);
 	int r = right(i);
-	int largest = i;
-	if(l <= heapSize && harr[l] > harr[i]){
-		largest = l;
+	int smallest;
+	if(l <= heapSize && harr[l] < harr[i]){
+		smallest = l;
 	} else {
-		largest = i;
+		smallest = i;
 	}
-	if(r <= heapSize && harr[r] > harr[largest]){
-		largest = r;
+	if(r <= heapSize && harr[r] < harr[smallest]){
+		smallest = r;
 	}
-	if(largest != i){
-		swap(harr[i], harr[largest]);
-		maxHeapify(largest);
+	if(smallest != i){
+		swap(harr[i], harr[smallest]);
+		minHeapify(smallest);
 	}
 	
 }
 
-int MaxHeap :: extractMax() {
+int MinHeap :: extractMin() {
 	if(heapSize <= 0) {
-		return INT_MIN;
+		return INT_MAX;
 	}
 	if(heapSize == 1){
 		return harr[heapSize--];
@@ -81,22 +81,22 @@ int MaxHeap :: extractMax() {
 	
 	int root = harr[0];
 	harr[0] = harr[	heapSize--];
-	maxHeapify(0);
+	minHeapify(0);
 	
 	return root;
 }
 
-void MaxHeap :: deleteKey(int i) {
-	harr[i] = INT_MAX;
-	while(i != 0 && harr[parent(i)] < harr[i]){
+void MinHeap :: deleteKey(int i) {
+	harr[i] = INT_MIN;
+	while(i != 0 && harr[parent(i)] > harr[i]){
 		swap(&harr[i], &harr[parent(i)]);
 		i = parent(i);
 	}
-	extractMax();
+	extractMin();
 }
 
 int main() {
-	MaxHeap h(10);
+	MinHeap h(10);
 	
 	h.insertKey(3); 
 	h.insertKey(2); 
@@ -108,8 +108,14 @@ int main() {
 	h.insertKey(4);
 	h.insertKey(45);
 
-	cout << h.extractMax() << " "; 
-	cout << h.getMax() << " ";
+	
+	cout << h.extractMin() << " ";
+	cout << h.extractMin() << " "; 
+	cout << h.extractMin() << " "; 
+	cout << h.extractMin() << " "; 
+	cout << h.extractMin() << " "; 
+	cout << h.extractMin() << " "; 
+	cout << h.getMin() << " ";
 	cout << endl; 
 
 	return 0; 
