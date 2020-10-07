@@ -46,6 +46,7 @@ void MinHeap :: insertKey(int val) {
 	
 	harr [heapSize++] = val;
 	int i = heapSize - 1;
+	
 	while(i != 0 && harr[parent(i)] > harr[i]){
 		swap(&harr[i], &harr[parent(i)]);
 		i = parent(i);
@@ -55,13 +56,11 @@ void MinHeap :: insertKey(int val) {
 void MinHeap :: minHeapify(int i) {
 	int l = left(i);
 	int r = right(i);
-	int smallest;
-	if(l <= heapSize && harr[l] < harr[i]){
+	int smallest = i;
+	if(l < heapSize && harr[l] < harr[i]){
 		smallest = l;
-	} else {
-		smallest = i;
 	}
-	if(r <= heapSize && harr[r] < harr[smallest]){
+	if(r < heapSize && harr[r] < harr[smallest]){
 		smallest = r;
 	}
 	if(smallest != i){
@@ -80,7 +79,8 @@ int MinHeap :: extractMin() {
 	}
 	
 	int root = harr[0];
-	harr[0] = harr[	heapSize--];
+	harr[0] = harr[heapSize-1];
+	heapSize--;
 	minHeapify(0);
 	
 	return root;
@@ -107,16 +107,9 @@ int main() {
 	h.insertKey(5); 
 	h.insertKey(4);
 	h.insertKey(45);
-
 	
-	cout << h.extractMin() << " ";
-	cout << h.extractMin() << " "; 
-	cout << h.extractMin() << " "; 
-	cout << h.extractMin() << " "; 
-	cout << h.extractMin() << " "; 
 	cout << h.extractMin() << " "; 
 	cout << h.getMin() << " ";
-	cout << endl; 
 
 	return 0; 
 }
