@@ -30,7 +30,7 @@ If a tree is empty, it is represented by a null pointer.
 - Use as a workflow for compositing digital images for visual effects.
 - Use in router algorithms.
 
-#### Binary Search Tree (BST) (see full code *[here](https://github.com/jainayu/Data-Structures/blob/master/Trees/BST.cpp)*)
+#### Binary Search Tree (BST) ([see implementation](https://github.com/jainayu/Data-Structures/blob/master/Trees/BST.cpp))
 
 For a binary tree to be a binary search tree, the data of all the nodes in the left sub-tree of the root node should be less than or equal to the data of the root. The data of all the nodes in the right subtree of the root node should be greater than the data of the root. 
 
@@ -65,6 +65,10 @@ A heap is a tree-based data structure in which all the nodes of the tree are in 
 
 For example, if *X* is the parent node of *Y*, then the value of *X* follows a specific order with respect to the value of *Y* and the same order will be followed across the tree. 
 
-**Max Heap:** In this type of heap, the value of parent node will always be greater than or equal to the value of child node across the tree and the node with highest value will be the root node of the tree.
+**Max Heap:**([see implementation](https://github.com/jainayu/Data-Structures/blob/master/Trees/MaxHeap.cpp)) 
 
-**Min Heap:** In this type of heap, the value of parent node will always be less than or equal to the value of child node across the tree and the node with lowest value will be the root node of tree. 
+In this type of heap, the value of parent node will always be greater than or equal to the value of child node across the tree and the node with highest value will be the root node of the tree.
+
+**Min Heap:** ([see implementation](https://github.com/jainayu/Data-Structures/blob/master/Trees/MinHeap.cpp)) 
+
+In this type of heap, the value of parent node will always be less than or equal to the value of child node across the tree and the node with lowest value will be the root node of tree. 
