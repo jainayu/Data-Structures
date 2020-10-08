@@ -1,6 +1,6 @@
-#### Advanced Data Structures
+## Advanced Data Structures
 
-## Trie
+#### Trie
 
 Tries are an extremely special and useful data-structure that are based on the prefix of a string. They are used to represent the “Re**trie**val” of data and thus the name Trie. 
 
