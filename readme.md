@@ -13,4 +13,4 @@ All the codes completed and examples or syntax quoted are in the C++ programming
       - [Binary Search Tree](https://github.com/jainayu/Data-Structures/tree/master/Trees#binary-search-tree-bst-see-implementation)
       - [Heaps](https://github.com/jainayu/Data-Structures/tree/master/Trees#heaps)
 7. [Addvanced Data Structures](https://github.com/jainayu/Data-Structures/tree/master/Advanced%20Data%20Structures)
-  - [Trie](https://github.com/jainayu/Data-Structures/tree/master/Advanced%20Data%20Structures#trie)
+      - [Trie](https://github.com/jainayu/Data-Structures/tree/master/Advanced%20Data%20Structures#trie)
