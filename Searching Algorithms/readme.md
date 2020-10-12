@@ -16,3 +16,11 @@ As we dispose off one part of the search case during every step of binary search
 
 - see **iterative** implemtation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Searching%20Algorithms/IterativeBinarySearch.cpp)
 - see **recursive** implemtation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Searching%20Algorithms/RecursiveBinarySearch.cpp)
+
+#### Ternary Search
+
+In binary search, the sorted array is divided into two parts while in ternary search, it is divided into **3** parts and then you determine in which part the element exists.
+
+Ternary search, like binary search, is a divide-and-conquer algorithm. It is mandatory for the array (in which you will search for an element) to be sorted before you begin the search. In this search, after each iteration it neglects **⅓** part of the array and repeats the same operations on the remaining **⅔**.
+
+O(log<sub>3</sub>N)where N is the size of the array.
