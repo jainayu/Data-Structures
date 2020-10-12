@@ -14,5 +14,5 @@ Binary search works only on a sorted set of elements. To use binary search on a 
 
 As we dispose off one part of the search case during every step of binary search, and perform the search operation on the other half, this results in a worst case time complexity of O(log<sub>2</sub>(N)). 
 
-see **iterative** implemtation [here]()
-see **recursive** implemtation [here]()
+- see **iterative** implemtation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Searching%20Algorithms/IterativeBinarySearch.cpp)
+- see **recursive** implemtation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Searching%20Algorithms/RecursiveBinarySearch.cpp)
