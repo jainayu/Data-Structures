@@ -11,7 +11,7 @@ void printVector(vector<int> v) {
 
 void bubleSort(vector<int> &v) {
 	int temp;
-	for(int i = 0; i < v.size()-1; i++) {
+	for(int i = 0; i < v.size(); i++) {
 	// (size-i-1) is for ignoring comparisons of elements which 
 	// have already been compared in earlier iterations
 		for(int j = 0; j < v.size()-i-1; j++){
