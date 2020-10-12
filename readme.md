@@ -20,6 +20,6 @@ All the codes completed and examples or syntax quoted are in the C++ programming
 #### Algorithms
 
 1. [Searching Algorithms](https://github.com/jainayu/Data-Structures-and-Algorithms/tree/master/Searching%20Algorithms)
-      - [Linear Search](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Searching%20Algorithms/LinearSearch.cpp)
-      - [Binary Search](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Searching%20Algorithms/BinarySearch.cpp)
+      - [Linear Search](https://github.com/jainayu/Data-Structures-and-Algorithms/tree/master/Searching%20Algorithms#linear-search)
+      - [Binary Search](https://github.com/jainayu/Data-Structures-and-Algorithms/tree/master/Searching%20Algorithms#binary-search)
       - [Ternary Search]()
