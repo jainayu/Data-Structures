@@ -4,7 +4,7 @@
 
 Linear search is used on a collections of items. It relies on the technique of traversing a list from start to end by exploring properties of all the elements that are found on the way.
 
-see implemtation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Searching%20Algorithms/LinearSearch.cpp)
+see full implemtation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Searching%20Algorithms/LinearSearch.cpp)
 
 #### Binary Search
 
@@ -24,3 +24,5 @@ In binary search, the sorted array is divided into two parts while in ternary se
 Ternary search, like binary search, is a divide-and-conquer algorithm. It is mandatory for the array (in which you will search for an element) to be sorted before you begin the search. In this search, after each iteration it neglects **⅓** part of the array and repeats the same operations on the remaining **⅔**.
 
 O(log<sub>3</sub>N)where N is the size of the array.
+
+see full implemtation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Searching%20Algorithms/TernarySearch.cpp)

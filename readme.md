@@ -1,6 +1,8 @@
 # Data Structures and Algorithms
 
-All the codes completed and examples or syntax quoted are in the C++ programming language.
+A data structure is a particular way of organizing data in a computer so that it can be used effectively. And algorithm is a step-by-step procedure, which defines a set of instructions to be executed in a certain order to get the desired output.
+
+*All the codes completed and examples or syntax quoted are in the C++ programming language.*
 
 ## Table of Content
 
@@ -22,4 +24,4 @@ All the codes completed and examples or syntax quoted are in the C++ programming
 1. [Searching Algorithms](https://github.com/jainayu/Data-Structures-and-Algorithms/tree/master/Searching%20Algorithms)
       - [Linear Search](https://github.com/jainayu/Data-Structures-and-Algorithms/tree/master/Searching%20Algorithms#linear-search)
       - [Binary Search](https://github.com/jainayu/Data-Structures-and-Algorithms/tree/master/Searching%20Algorithms#binary-search)
-      - [Ternary Search]()
+      - [Ternary Search](https://github.com/jainayu/Data-Structures-and-Algorithms/tree/master/Searching%20Algorithms#ternary-search)
