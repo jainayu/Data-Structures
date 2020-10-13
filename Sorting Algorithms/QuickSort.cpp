@@ -29,9 +29,16 @@ int partition(vector<int> &v, int start, int end){
 	return i-1;
 }
 
+int randPartition(vector<int> &v, int start, int end){
+	int random = start + rand() % (end - start + 1);
+	swap(v[random], v[start]);
+	return partition(v, start, end);
+}
+
 void quickSort(vector<int> &v, int start, int end) {
 	if(start < end) {
-		int pivPos = partition(v, start, end);
+		int pivPos = randPartition(v, start, end);
+		printVector(v);
 		quickSort(v, start, pivPos - 1);
 		quickSort(v, pivPos + 1, end);
 	}

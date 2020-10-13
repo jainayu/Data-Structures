@@ -50,4 +50,6 @@ Quick sort is based on the **divide-and-conquer approach** based on the idea of 
 
 It reduces the space complexity and removes the use of the auxiliary array that is used in merge sort. Selecting a random pivot in an array results in an improved time complexity in most of the cases.
 
+The worst case time complexity of this algorithm is O(N<sup>2</sup>), but as this is randomized algorithm, its time complexity fluctuates between O(N<sup>2</sup>) and O(NlogN) and mostly it comes out to be O(NlogN).
+
 
