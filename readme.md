@@ -35,10 +35,4 @@ A data structure is a particular way of organizing data in a computer so that it
       - [Radix Sort]()
       - [Heap Sort]()
       - [Bucket Sort]()
-3. [Divide & Conquer Algorithms]
-      - [Merge Sort](https://github.com/jainayu/Data-Structures-and-Algorithms/tree/master/Sorting%20Algorithms#merge-sort)*
-      - [Quick Sort](https://github.com/jainayu/Data-Structures-and-Algorithms/tree/master/Sorting%20Algorithms#quick-sort)*
-
-** these algorithms are repeated because they fit in different sections*
-
 
