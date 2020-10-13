@@ -10,4 +10,7 @@ Strings are stored in a top to bottom manner on the basis of their prefix in a t
 
 The insertion of any string into a Trie starts from the root node. All prefixes of length one are direct children of the root node. In addition, all prefixes of length 2 become children of the nodes existing at level one. 
 
-*see full implementation in cpp [here](https://github.com/jainayu/Data-Structures/blob/master/Advanced%20Data%20Structures/Trie.cpp)*
+**see full implementation [here](https://github.com/jainayu/Data-Structures/blob/master/Advanced%20Data%20Structures/Trie.cpp)**
+
+----------
+
