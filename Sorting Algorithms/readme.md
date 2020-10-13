@@ -30,7 +30,7 @@ see full implementation [here](https://github.com/jainayu/Data-Structures-and-Al
 
 #### Merge Sort
 
-Merge sort is a divide-and-conquer algorithm based on the idea of breaking down a list into several sub-lists until each sublist consists of a single element and merging those sublists in a manner that results into a sorted list.
+Merge sort is a **divide-and-conquer algorithm** based on the idea of breaking down a list into several sub-lists until each sublist consists of a single element and merging those sublists in a manner that results into a sorted list.
 
 Idea:
 
@@ -43,3 +43,11 @@ While comparing two sublists for merging, the first element of both lists is tak
 The list of size N is divided into a max of *log(N)* parts, and the merging of all sublists into a single list takes *O(N)* time, the worst case run time of this algorithm is *O(NlogN)*
 
 see full implementation [here]()
+
+##### Quick Sort
+
+Quick sort is based on the **divide-and-conquer approach** based on the idea of choosing one element as a pivot element and partitioning the array around it such that: Left side of pivot contains all the elements that are less than the pivot element Right side contains all elements greater than the pivot
+
+It reduces the space complexity and removes the use of the auxiliary array that is used in merge sort. Selecting a random pivot in an array results in an improved time complexity in most of the cases.
+
+
