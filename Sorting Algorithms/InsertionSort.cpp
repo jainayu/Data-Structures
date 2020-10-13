@@ -23,7 +23,8 @@ void insertionSort(vector<int> &v) {
 }
 
 int main() {
-	vector<int> v = {2, 5, 4, 6, 3, 1, 0};
+	vector<int> v{2, 5, 4, 6, 3, 1, 0};
 	insertionSort(v);
 	printVector(v);
+	return 0;
 }

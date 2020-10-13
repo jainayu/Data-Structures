@@ -30,7 +30,8 @@ void selectionSort(vector<int> &v) {
 }
 
 int main() {
-	vector<int> v = {2, 5, 4, 6, 3, 1, 0};
+	vector<int> v{2, 5, 4, 6, 3, 1, 0};
 	selectionSort(v);
 	printVector(v);
+	return 0;
 }

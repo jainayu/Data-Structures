@@ -27,3 +27,19 @@ It iterates the input elements by growing the sorted array at each iteration. It
 In worst case,each element is compared with all the other elements in the sorted array. For N elements, there will be N<sup>2</sup> comparisons. Therefore, the time complexity is O(N<sup>2</sup>).
 
 see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Sorting%20Algorithms/InsertionSort.cpp)
+
+#### Merge Sort
+
+Merge sort is a divide-and-conquer algorithm based on the idea of breaking down a list into several sub-lists until each sublist consists of a single element and merging those sublists in a manner that results into a sorted list.
+
+Idea:
+
+- Divide the unsorted list into N sublists, each containing 1 element.
+- Take adjacent pairs of two singleton lists and merge them to form a list of 2 elements. N will now convert into N/2 lists of size 2.
+- Repeat the process till a single sorted list of obtained.
+
+While comparing two sublists for merging, the first element of both lists is taken into consideration. While sorting in ascending order, the element that is of a lesser value becomes a new element of the sorted list. This procedure is repeated until both the smaller sublists are empty and the new combined sublist comprises all the elements of both the sublists.
+
+The list of size N is divided into a max of *log(N)* parts, and the merging of all sublists into a single list takes *O(N)* time, the worst case run time of this algorithm is *O(NlogN)*
+
+see full implementation [here]()
