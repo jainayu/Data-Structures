@@ -6,7 +6,7 @@ Bubble sort is based on the idea of repeatedly comparing pairs of adjacent eleme
 
 The complexity of bubble sort is O(n<sup>2</sup>)in both worst and average cases, because the entire array needs to be iterated for every element.
 
-see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Sorting%20Algorithms/BubbleSort.cpp)
+**see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Sorting%20Algorithms/BubbleSort.cpp)**
 
 #### Selection Sort
 
@@ -16,7 +16,7 @@ To find the minimum element from the array of N elements, N - 1 comparisons are 
 
 Therefore (N - 1) + (N - 2) + ......... + 1 = (N. (N - 1))/2 comparisons and N swaps result in the overall complexity of O(N<sup>2</sup>).
 
-see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Sorting%20Algorithms/SelectionSort.cpp)
+**see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Sorting%20Algorithms/SelectionSort.cpp)**
 
 #### Insertion Sort
 
@@ -26,7 +26,7 @@ It iterates the input elements by growing the sorted array at each iteration. It
 
 In worst case,each element is compared with all the other elements in the sorted array. For N elements, there will be N<sup>2</sup> comparisons. Therefore, the time complexity is O(N<sup>2</sup>).
 
-see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Sorting%20Algorithms/InsertionSort.cpp)
+**see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Sorting%20Algorithms/InsertionSort.cpp)**
 
 #### Merge Sort
 
@@ -42,7 +42,7 @@ While comparing two sublists for merging, the first element of both lists is tak
 
 The list of size N is divided into a max of *log(N)* parts, and the merging of all sublists into a single list takes *O(N)* time, the worst case run time of this algorithm is *O(NlogN)*
 
-see full implementation [here]()
+**see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Sorting%20Algorithms/MergeSort.cpp)**
 
 ##### Quick Sort
 
@@ -51,5 +51,7 @@ Quick sort is based on the **divide-and-conquer approach** based on the idea of 
 It reduces the space complexity and removes the use of the auxiliary array that is used in merge sort. Selecting a random pivot in an array results in an improved time complexity in most of the cases.
 
 The worst case time complexity of this algorithm is O(N<sup>2</sup>), but as this is randomized algorithm, its time complexity fluctuates between O(N<sup>2</sup>) and O(NlogN) and mostly it comes out to be O(NlogN).
+
+**see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Sorting%20Algorithms/QuickSort.cpp)**
 
 
