@@ -8,6 +8,8 @@ The complexity of bubble sort is O(n<sup>2</sup>)in both worst and average cases
 
 **see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Sorting%20Algorithms/BubbleSort.cpp)**
 
+----------
+
 #### Selection Sort
 
 The Selection sort algorithm is based on the idea of finding the minimum or maximum element in an unsorted array and then putting it in its correct position in a sorted arra
@@ -18,6 +20,8 @@ Therefore (N - 1) + (N - 2) + ......... + 1 = (N. (N - 1))/2 comparisons and N s
 
 **see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Sorting%20Algorithms/SelectionSort.cpp)**
 
+----------
+
 #### Insertion Sort
 
 Insertion sort is based on the idea that one element from the input elements is consumed in each iteration to find its correct position i.e, the position to which it belongs in a sorted array.
@@ -27,6 +31,8 @@ It iterates the input elements by growing the sorted array at each iteration. It
 In worst case,each element is compared with all the other elements in the sorted array. For N elements, there will be N<sup>2</sup> comparisons. Therefore, the time complexity is O(N<sup>2</sup>).
 
 **see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Sorting%20Algorithms/InsertionSort.cpp)**
+
+----------
 
 #### Merge Sort
 
@@ -44,6 +50,8 @@ The list of size N is divided into a max of *log(N)* parts, and the merging of a
 
 **see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Sorting%20Algorithms/MergeSort.cpp)**
 
+----------
+
 ##### Quick Sort
 
 Quick sort is based on the **divide-and-conquer approach** based on the idea of choosing one element as a pivot element and partitioning the array around it such that: Left side of pivot contains all the elements that are less than the pivot element Right side contains all elements greater than the pivot
@@ -53,5 +61,7 @@ It reduces the space complexity and removes the use of the auxiliary array that 
 The worst case time complexity of this algorithm is O(N<sup>2</sup>), but as this is randomized algorithm, its time complexity fluctuates between O(N<sup>2</sup>) and O(NlogN) and mostly it comes out to be O(NlogN).
 
 **see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Sorting%20Algorithms/QuickSort.cpp)**
+
+----------
 
 
