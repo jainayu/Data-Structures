@@ -67,3 +67,5 @@ The worst case time complexity of this algorithm is O(N<sup>2</sup>), but as thi
 #### Counting Sort
 
 In Counting sort, the frequencies of distinct elements of the array to be sorted is counted and stored in an auxiliary array, by mapping its value as an index of the auxiliary array. 
+
+The array is traversed in O(N) time and the resulting sorted array is also computed in O(N) time. Auxiliary memory is traversed in O(K) time. Therefore, the overall time complexity of counting sort algorithm is O(N + K).
