@@ -64,4 +64,6 @@ The worst case time complexity of this algorithm is O(N<sup>2</sup>), but as thi
 
 ----------
 
+#### Counting Sort
 
+In Counting sort, the frequencies of distinct elements of the array to be sorted is counted and stored in an auxiliary array, by mapping its value as an index of the auxiliary array. 
