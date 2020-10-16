@@ -50,7 +50,10 @@ void mergeSort(vector<int> &v, int start, int end) {
 
 int main() {
 	vector<int> v{2, 5, 4, 6, 3, 1, 0};
+
+	cout << "Original array:\t"; printVector(v);	
 	mergeSort(v, 0, v.size() - 1);
-	printVector(v);
+	cout << "Sorted array:\t";	printVector(v);
+
 	return 0;
 }

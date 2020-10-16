@@ -90,5 +90,13 @@ For each digit i where i varies from the least significant digit to the most sig
 
 ----------
 
+#### Heap Sort
+
+In max-heaps, maximum element will always be at the root. Heap Sort uses this property of heap to sort the array.
+
+Time complexity of heapify is O(LogN). Time complexity of creating and building Heap is O(N) and overall time complexity of Heap Sort is O(NLogN).
+
+----------
+
 
 
