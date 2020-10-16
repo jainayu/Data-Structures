@@ -70,7 +70,9 @@ In Counting sort, the frequencies of distinct elements of the array to be sorted
 
 The array is traversed in O(N) time and the resulting sorted array is also computed in O(N) time. Auxiliary memory is traversed in O(K) time. Therefore, the overall time complexity of counting sort algorithm is O(N + K).
 
-*Note: The array can be sorted by using this algorithm only if the maximum value in the array is less than the maximum size of the auxiliary array. Usually, it is possible to allocate memory up to the order of a million* (10<sup>6</sup>)*. If the maximum value of exceeds the maximum memory-allocation size, it is recommended that you do not use this algorithm. Use either the* [quick sort](https://github.com/jainayu/Data-Structures-and-Algorithms/tree/master/Sorting%20Algorithms#quick-sort) *or* [merge sort](https://github.com/jainayu/Data-Structures-and-Algorithms/tree/master/Sorting%20Algorithms#merge-sort)* algorithm.*
+*Note: The array can be sorted by using this algorithm only if the maximum value in the array is less than the maximum size of the auxiliary array. Usually, it is possible to allocate memory up to the order of a million* (10<sup>6</sup>)*. If the maximum value of exceeds the maximum memory-allocation size, it is recommended that you do not use this algorithm. Use either the* [quick sort](https://github.com/jainayu/Data-Structures-and-Algorithms/tree/master/Sorting%20Algorithms#quick-sort) *or* [merge sort](https://github.com/jainayu/Data-Structures-and-Algorithms/tree/master/Sorting%20Algorithms#merge-sort) *algorithm.*
+
+**see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Sorting%20Algorithms/CountingSort.cpp)**
 
 ----------
 
