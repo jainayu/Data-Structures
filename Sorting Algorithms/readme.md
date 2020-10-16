@@ -74,4 +74,21 @@ The array is traversed in O(N) time and the resulting sorted array is also compu
 
 ----------
 
+#### Radix Sort
+
+A small prerequisite: [Counting Sort](https://github.com/jainayu/Data-Structures-and-Algorithms/tree/master/Sorting%20Algorithms#counting-sort)
+
+QuickSort, MergeSort, HeapSort are comparison based sorting algorithms.
+
+CountSort is not comparison based algorithm. It has the complexity of O(N + K), where K is the maximum element of the input array.
+
+So, K if is O(N), CountSort becomes linear sorting, which is better than comparison based sorting algorithms that have O(NlogN) time complexity. The idea is to extend the CountSort algorithm to get a better time complexity when k goes O(N<sup>2</sup>). Here comes the idea of Radix Sort.
+
+For each digit i where i varies from the least significant digit to the most significant digit of a number
+
+  Sort input array using countsort algorithm according to ith digit.
+
+----------
+
+
 

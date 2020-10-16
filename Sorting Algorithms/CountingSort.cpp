@@ -1,3 +1,4 @@
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -17,7 +18,7 @@ int findMax(vector<int> v){
 	return m;
 }
 
-void countingSort(vector<int> &v, vector<int> &aux, vector<int> &sortedV) {
+void countingSort(vector<int> v, vector<int>& aux, vector<int>& sortedV) {
 	for(int i = 0; i < v.size(); i++){
 		aux[v[i]]++;
 	}
