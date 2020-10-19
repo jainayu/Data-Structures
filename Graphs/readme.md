@@ -12,3 +12,13 @@ Graphs are mathematical structures that represent pairwise relationships between
 
 - Leaf nodes: In a graph, leaf nodes represent the nodes that do not have any successors. These nodes only have ancestor nodes. They can have any number of incoming edges but they will not have any outgoing edges.
 
+**Types of graphs**
+
+- Undirected: An undirected graph is a graph in which all the edges are bi-directional i.e. the edges do not point in any specific direction.
+- Directed: A directed graph is a graph in which all the edges are uni-directional i.e. the edges point in a single direction.
+- Weighted: In a weighted graph, each edge is assigned a weight or cost.
+- Cyclic: A graph is cyclic if the graph comprises a path that starts from a vertex and ends at the same vertex. That path is called a cycle. An **acyclic graph** is a graph that has no cycle. 
+
+> A **tree** is an **undirected graph** in which any two vertices are connected by only one path. A tree is an **acyclic graph** and has N - 1 edges where N is the number of vertices. Each node in a graph may have one or multiple parent nodes. However, in a tree, each node (except the root node) comprises exactly one parent node.
+> *Note: A root node has no parent.*
+> A tree **cannot contain any cycles or self loops**, however, the same does not apply to graphs. 
