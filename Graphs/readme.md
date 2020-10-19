@@ -20,5 +20,7 @@ Graphs are mathematical structures that represent pairwise relationships between
 - Cyclic: A graph is cyclic if the graph comprises a path that starts from a vertex and ends at the same vertex. That path is called a cycle. An **acyclic graph** is a graph that has no cycle. 
 
 > A **tree** is an **undirected graph** in which any two vertices are connected by only one path. A tree is an **acyclic graph** and has N - 1 edges where N is the number of vertices. Each node in a graph may have one or multiple parent nodes. However, in a tree, each node (except the root node) comprises exactly one parent node.
+
 > *Note: A root node has no parent.*
+
 > A tree **cannot contain any cycles or self loops**, however, the same does not apply to graphs. 
