@@ -52,7 +52,7 @@ The list of size N is divided into a max of *log(N)* parts, and the merging of a
 
 ----------
 
-##### Quick Sort
+#### Quick Sort
 
 Quick sort is based on the **divide-and-conquer approach** based on the idea of choosing one element as a pivot element and partitioning the array around it such that: Left side of pivot contains all the elements that are less than the pivot element Right side contains all elements greater than the pivot
 
@@ -86,9 +86,7 @@ CountSort is not comparison based algorithm. It has the complexity of O(N + K), 
 
 So, K if is O(N), CountSort becomes linear sorting, which is better than comparison based sorting algorithms that have O(NlogN) time complexity. The idea is to extend the CountSort algorithm to get a better time complexity when k goes O(N<sup>2</sup>). Here comes the idea of Radix Sort.
 
-For each digit i where i varies from the least significant digit to the most significant digit of a number
-
-  Sort input array using countsort algorithm according to ith digit.
+**see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Sorting%20Algorithms/RadixSort.cpp)**
 
 ----------
 
@@ -97,6 +95,8 @@ For each digit i where i varies from the least significant digit to the most sig
 In max-heaps, maximum element will always be at the root. Heap Sort uses this property of heap to sort the array.
 
 Time complexity of heapify is O(LogN). Time complexity of creating and building Heap is O(N) and overall time complexity of Heap Sort is O(NLogN).
+
+**see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Sorting%20Algorithms/HeapSort.cpp)**
 
 ----------
 
