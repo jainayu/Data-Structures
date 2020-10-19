@@ -24,3 +24,10 @@ Graphs are mathematical structures that represent pairwise relationships between
 > *Note: A root node has no parent.*
 
 > A tree **cannot contain any cycles or self loops**, however, the same does not apply to graphs. 
+
+**Graph representation**
+
+You can represent a graph in many ways. The two most common ways of representing a graph is as follows:
+
+- Adjacency matrix
+- Adjacency list
