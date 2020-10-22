@@ -38,4 +38,7 @@ Graph traversal means visiting every vertex and edge exactly once in a well-defi
 
 During a traversal, it is important that you track which vertices have been visited. The most common way of tracking vertices is to mark them.
 
+#### Breadth First Search (BFS)
+
+#### Depth First Search (DFS)
 
