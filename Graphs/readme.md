@@ -12,7 +12,7 @@ Graphs are mathematical structures that represent pairwise relationships between
 
 - Leaf nodes: In a graph, leaf nodes represent the nodes that do not have any successors. These nodes only have ancestor nodes. They can have any number of incoming edges but they will not have any outgoing edges.
 
-**Types of graphs**
+#### Types of graphs
 
 - Undirected: An undirected graph is a graph in which all the edges are bi-directional i.e. the edges do not point in any specific direction.
 - Directed: A directed graph is a graph in which all the edges are uni-directional i.e. the edges point in a single direction.
