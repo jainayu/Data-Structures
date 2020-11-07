@@ -46,7 +46,7 @@ A graph can contain cycles, which may bring you to the same node again while tra
 
 To make this process easy, use a queue to store the node and mark it as 'visited' until all its neighbours (vertices that are directly connected to it) are marked. The queue follows the First In First Out (FIFO) queuing method, and therefore, the neigbors of the node will be visited in the order in which they were inserted in the node i.e. the node that was inserted first will be visited first, and so on. 
 
-**see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Graphs/BFS.cpp)**
+**see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Graphs/graph.cpp)**
 
 Some Applications:
 
@@ -54,4 +54,12 @@ Some Applications:
 2. 0-1 BFS
 
 #### Depth First Search (DFS)
+
+The DFS algorithm is a recursive algorithm that uses the idea of backtracking. It involves exhaustive searches of all the nodes by going ahead, if possible, else by backtracking.
+
+Here, the word backtrack means that when you are moving forward and there are no more nodes along the current path, you move backwards on the same path to find nodes to traverse. All the nodes will be visited on the current path till all the unvisited nodes have been traversed after which the next path will be selected.
+
+This recursive nature of DFS can be implemented using stacks.
+
+**see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Graphs/graph.cpp)**
 
