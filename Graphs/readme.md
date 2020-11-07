@@ -48,5 +48,10 @@ To make this process easy, use a queue to store the node and mark it as 'visited
 
 **see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Graphs/BFS.cpp)**
 
+Some Applications:
+
+1. How to determine the level of each node in the given tree?
+2. 0-1 BFS
+
 #### Depth First Search (DFS)
 
