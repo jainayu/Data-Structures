@@ -46,7 +46,7 @@ A graph can contain cycles, which may bring you to the same node again while tra
 
 To make this process easy, use a queue to store the node and mark it as 'visited' until all its neighbours (vertices that are directly connected to it) are marked. The queue follows the First In First Out (FIFO) queuing method, and therefore, the neigbors of the node will be visited in the order in which they were inserted in the node i.e. the node that was inserted first will be visited first, and so on. 
 
-**see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Graphs/graph.cpp)**
+**see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Graphs/GraphTraversal.cpp)**
 
 Some Applications:
 
@@ -61,5 +61,5 @@ Here, the word backtrack means that when you are moving forward and there are no
 
 This recursive nature of DFS can be implemented using stacks.
 
-**see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Graphs/graph.cpp)**
+**see full implementation [here](https://github.com/jainayu/Data-Structures-and-Algorithms/blob/master/Graphs/GraphTraversal.cpp)**
 
